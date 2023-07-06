@@ -1,5 +1,5 @@
-Nombres,Apellidos,Emails
-UFREK,BARROS,ub@mail.com
-ROBERT,CAICEDO,rc@mail.com
-JEAN,PEÑAFIEL,jp@mail.com
-MARIA,TAPIA,mt@mail.com
+Nombres,Apellidos,Emails,Numero Celular,Consultorio,Especialidad
+UFREK,BARROS,ub@mail.com,0932132412,Paws & Claws Veterinary Clinic,Radiología veterinaria
+ROBERT,CAICEDO,rc@mail.com,0934626243,Clínica Veterinaria VetCare,Cardiología veterinaria
+JEAN,PEÑAFIEL,jp@mail.com,0936477326,Hospital Veterinario Salud y Bienestar,Medicina interna
+MARIA,TAPIA,mt@mail.com,0921474834,Centro Médico Veterinario Mimascota,Cirugía veterinaria

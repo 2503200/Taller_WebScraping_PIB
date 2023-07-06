@@ -50,6 +50,9 @@ filas = tabla.find_all('tr')
 nombres = []
 apellidos = []
 emails = []
+numero_cell = []
+consultorio = []
+especialidad = []
 
 #Iterar sobre las filas e imprimir los datos
 for fila in filas:
@@ -65,11 +68,17 @@ for fila in filas:
         #print(celdas[3])
         #print(celdas[4])
         emails.append(celdas[4].string)
+        numero_cell.append(celdas[5].string)
+        consultorio.append(celdas[6].string)
+        especialidad.append(celdas[7].string)
 
 print(nombres)
 print(apellidos)
 print(emails)
+print(numero_cell)
+print(consultorio)
+print(especialidad)
 
-df = pandas.DataFrame({'Nombres':nombres,'Apellidos':apellidos,'Emails':emails})
+df = pandas.DataFrame({'Nombres':nombres,'Apellidos':apellidos,'Emails':emails,'Numero Celular':numero_cell,'Consultorio':consultorio,'Especialidad':especialidad})
 df.to_csv('personas.csv', index=False, encoding='utf-8')
 #df.to_excel('personas.xlsx')
